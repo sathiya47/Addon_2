@@ -1,0 +1,15 @@
+CREATE TABLE stud (
+    id INT ,
+    name VARCHAR(50),
+    marks INT,
+    department VARCHAR(50),
+    section VARCHAR(10));
+
+INSERT INTO stud (name, marks, department, section) VALUES
+('SAT', 70, 'Commerce', 'B'),
+('SUSI', 76, 'Maths', 'B'),
+('SUSHMI', 90, 'Accountancy', 'A'),
+('MUKII', 87, 'Economics', 'C'),
+('UDHAYA', 90, 'Computer Application', 'A');
+
+SELECT * FROM stud;
